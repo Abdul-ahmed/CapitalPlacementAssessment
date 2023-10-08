@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace CapitalPlacementAssessment
+namespace CapitalPlacementAssessment.Controllers
 {
     [ApiController]
     [Route("/")]
@@ -8,7 +8,7 @@ namespace CapitalPlacementAssessment
     {
         public string Get()
         {
-            return "Hello from API";
+            return "Hello from APIs";
         }
     }
 }
